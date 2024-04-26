@@ -18,16 +18,23 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.search-bar{
+  height: 80px;
+}
+.podcastListItem {
+  width: 250px;
+  height: 150px;
+}
+
+.podcastList {
+  height: 600px;
 }
